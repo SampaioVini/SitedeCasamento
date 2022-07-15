@@ -1,0 +1,237 @@
+* {
+    margin: 20;
+
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: #ff1e1e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    font-size: larger;
+    position: fixed;
+    z-index: 999;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.carousel-inner>img {
+    height: 600px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+}
+
+
+.c-inicio {
+    margin-top: 100px;
+    background-color: #ffe1d0;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.left-c {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: center
+}
+
+.right-c {
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    text-align: center
+}
+
+.left-c p {
+    margin-right: 280px;
+    font-size: large;
+    color: black;
+    text-align: center
+}
+
+.c-meio {
+    background: linear-gradient(180deg, #ff1e1e 2.46%, #01140b 59.93%);
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    border-top: 0.5px solid rgb(248, 246, 248);
+    color: rgb(243, 243, 243);
+    font-size: large;
+    width: 100%;
+}
+
+.card-1 {
+    margin-bottom: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+
+.card-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.card-3 {
+    margin-bottom: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.rodape {
+    background-color: #ff0000;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        padding: 0;
+    }
+
+    .header {
+        width: 100%;
+        margin-right: 10px;
+        
+
+
+    }
+
+
+    .logo>a img {
+        margin-left: 0;
+        padding-right: 20px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .navs {
+        font-size: medium;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+    .carousel-inner {
+        height: 150px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .carousel-inner>img {
+        height: 150px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .navs>a {
+        color: rgb(255, 255, 255);
+        padding-left: 20px;
+    }
+
+    .c-inicio {
+        margin: 0;
+    }
+
+    .left-c>p h1 {
+        width: 100%;
+    }
+
+    .left-c {
+        width: 100%;
+    }
+
+    .left-c>p {
+        margin-bottom: 10px;
+        padding-right: 40px;
+        width: 100%;
+        margin-left: 275px;
+        margin: 10px;
+    }
+
+    .right-c>img {
+        display: none;
+    }
+
+
+    .c-meio {
+        width: 100%;
+        background: linear-gradient(180deg, #ff1e1e 2.46%, #070102 59.93%);
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-1 {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .card-2 {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .card-3 {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+
+
+    .rodape {
+        background-color: #ff0000;
+        width: 100%;
+    }
+
+}
